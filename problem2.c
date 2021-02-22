@@ -17,7 +17,7 @@ int main(){
 	char hex_result[num_input][8]; //storing 7 bits and additional 1 for the terminating character
 	for(int i = 0; i<num_input; i++){
 		int red, green, blue;
-		int result = scanf("%d,%d,%d",&red, &green, &blue); //Check that red, green, blue >0 and <255
+		int result = scanf("%d,%d,%d",&red, &green, &blue); //Check that red, green, blue >0 and <255 pointer for eachs
 		if(num_input>0 && red<=255 && red>=0 && 
 		green<=255 && green>=0 && 
 		blue<=255 && blue>=0){
