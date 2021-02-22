@@ -25,18 +25,7 @@ int compress(int month, int day, int hour, int minute, int second) {
 	compress |= (day_ten & 0x3) << 24;
 	compress |=  (month_one & 0xf) << 26;
 	compress |=  (month_ten & 0x1) << 30;
-	//compress initiatlized to 0, don't have to specify 31
-	// printf("second_one %d\n",second_one);
-	// printf("second_ten %d\n",second_ten);
-	// printf("minute_one %d\n",minute_one);
-	// printf("minute_ten %d\n",minute_ten);
-	// printf("hour_one %d\n",hour_one);
-	// printf("hour_ten %d\n",hour_ten);
-	// printf("day_one %d\n",day_ten);
-	// printf("day_ten%d\n",day_ten);
-	// printf("month_one %d\n",month_one);
-	// printf("month_ten %d\n",month_ten);
-	// printf("Compress %d\n",compress);
+
 	return compress;
 }
 
