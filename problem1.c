@@ -1,4 +1,3 @@
-// implement your program here
 //Aaron Puthan
 //02/21/2021
 /*The program should print N lines to the standard output. For each valid color
@@ -48,9 +47,9 @@ int main(){
 		if(result != 5 ||
 		month >12 || month <1 || 
 		day <1 || day >31 || 
-		hour >24 || hour <1 || 
-		minute >60 || minute < 1||
-		second >60 || second <1) {
+		hour >24 || hour <0 || 
+		minute >60 || minute < 0||
+		second >60 || second <0) {
 			array[i] = -1;
 		}
 		else{
