@@ -1,4 +1,10 @@
 // implement your program here
+//Aaron Puthan
+//02/21/2021
+/*The program should print N lines to the standard output. For each valid color
+the program should print its corresponding hexadecimal value proceeded by a # symbol.
+For each invalid color the program should print INVALID.*/
+
 #include <stdio.h>
 
 int compress(int month, int day, int hour, int minute, int second) {
