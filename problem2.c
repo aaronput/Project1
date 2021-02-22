@@ -1,4 +1,10 @@
-// implement your program here
+//Aaron Puthan
+//02/21/2021
+/*The objective of your program is to read the three values representing the three
+separate colors and produce a single hexadecimal value.
+
+Each color is represented by a value in a range of [0,255]. Each of those numbers
+is represented by exactly two hexadecimal symbols: RRGGBB.*/
 
 #include <stdio.h>
 
